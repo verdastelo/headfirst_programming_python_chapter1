@@ -1,0 +1,5 @@
+text = "This costs <html>$10</html> and we are against it."
+
+index = text.find(">$")
+
+print(text[index:(index+4)]) 
